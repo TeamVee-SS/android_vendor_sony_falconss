@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/sony/falconss/proprietary/bin/rild:system/bin/rild \
 	vendor/sony/falconss/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-	vendor/sony/falconss/proprietary/bin/sensorservice:system/bin/sensorservice \
 	vendor/sony/falconss/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/sony/falconss/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/sony/falconss/proprietary/bin/updatemiscta:system/bin/updatemiscta \
