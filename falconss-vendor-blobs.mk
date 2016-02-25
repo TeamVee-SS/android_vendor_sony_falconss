@@ -71,7 +71,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
 	vendor/sony/falconss/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/sony/falconss/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-	vendor/sony/falconss/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
 	vendor/sony/falconss/proprietary/lib/libta.so:system/lib/libta.so \
 	vendor/sony/falconss/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
 	vendor/sony/falconss/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
