@@ -68,6 +68,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
 	vendor/sony/falconss/proprietary/lib/libmorpho_wdr.so:system/lib/libmorpho_wdr.so \
 	vendor/sony/falconss/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
+	vendor/sony/falconss/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
 	vendor/sony/falconss/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/sony/falconss/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	vendor/sony/falconss/proprietary/lib/libta.so:system/lib/libta.so \
