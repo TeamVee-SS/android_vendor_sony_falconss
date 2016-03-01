@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
 	vendor/sony/falconss/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
 	vendor/sony/falconss/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
-	vendor/sony/falconss/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
 	vendor/sony/falconss/proprietary/lib/hw/camera.msm8610.so:system/lib/hw/camera.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/hw/lights.msm8610.so:system/lib/hw/lights.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
@@ -248,6 +247,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
 	vendor/sony/falconss/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
