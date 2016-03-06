@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
 	vendor/sony/falconss/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/sony/falconss/proprietary/bin/btnvtool:system/bin/btnvtool \
-	vendor/sony/falconss/proprietary/bin/btsnoop:system/bin/btsnoop \
 	vendor/sony/falconss/proprietary/bin/charger_monitor:system/bin/charger_monitor \
 	vendor/sony/falconss/proprietary/bin/cnd:system/bin/cnd \
 	vendor/sony/falconss/proprietary/bin/credmgrd:system/bin/credmgrd \
@@ -27,10 +26,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/dun-server:system/bin/dun-server \
 	vendor/sony/falconss/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
 	vendor/sony/falconss/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
-	vendor/sony/falconss/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
 	vendor/sony/falconss/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/sony/falconss/proprietary/bin/irsc_util:system/bin/irsc_util \
-	vendor/sony/falconss/proprietary/bin/mmi:system/bin/mmi \
 	vendor/sony/falconss/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
 	vendor/sony/falconss/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/sony/falconss/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -45,7 +42,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/sony/falconss/proprietary/bin/sapd:system/bin/sapd \
 	vendor/sony/falconss/proprietary/bin/scd:system/bin/scd \
-	vendor/sony/falconss/proprietary/bin/ssr_diag:system/bin/ssr_diag \
 	vendor/sony/falconss/proprietary/bin/suntrold:system/bin/suntrold \
 	vendor/sony/falconss/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/sony/falconss/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -150,6 +146,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
 	vendor/sony/falconss/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
 	vendor/sony/falconss/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+	vendor/sony/falconss/proprietary/lib/libface.so:system/lib/libface.so \
 	vendor/sony/falconss/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
 	vendor/sony/falconss/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
 	vendor/sony/falconss/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
