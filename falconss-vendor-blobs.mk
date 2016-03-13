@@ -34,8 +34,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/sony/falconss/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
 	vendor/sony/falconss/proprietary/bin/qmuxd:system/bin/qmuxd \
-	vendor/sony/falconss/proprietary/bin/qrngd:system/bin/qrngd \
-	vendor/sony/falconss/proprietary/bin/qrngp:system/bin/qrngp \
 	vendor/sony/falconss/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/sony/falconss/proprietary/bin/rfs_access:system/bin/rfs_access \
 	vendor/sony/falconss/proprietary/bin/rild:system/bin/rild \
@@ -43,12 +41,12 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/sapd:system/bin/sapd \
 	vendor/sony/falconss/proprietary/bin/scd:system/bin/scd \
 	vendor/sony/falconss/proprietary/bin/suntrold:system/bin/suntrold \
+	vendor/sony/falconss/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
 	vendor/sony/falconss/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/sony/falconss/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/sony/falconss/proprietary/bin/updatemiscta:system/bin/updatemiscta \
 	vendor/sony/falconss/proprietary/bin/usbhub:system/bin/usbhub \
 	vendor/sony/falconss/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-	vendor/sony/falconss/proprietary/bin/wcnss_service:system/bin/wcnss_service \
 	vendor/sony/falconss/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -144,7 +142,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/hw/lights.msm8610.so:system/lib/hw/lights.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
 	vendor/sony/falconss/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
-	vendor/sony/falconss/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
 	vendor/sony/falconss/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/sony/falconss/proprietary/lib/libface.so:system/lib/libface.so \
 	vendor/sony/falconss/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
@@ -169,7 +166,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
 	vendor/sony/falconss/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
 	vendor/sony/falconss/proprietary/lib/libril.so:system/lib/libril.so \
-	vendor/sony/falconss/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	vendor/sony/falconss/proprietary/lib/libta.so:system/lib/libta.so \
 	vendor/sony/falconss/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
 	vendor/sony/falconss/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
