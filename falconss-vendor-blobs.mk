@@ -90,25 +90,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
 	vendor/sony/falconss/proprietary/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b08:system/etc/firmware/modem.b08 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b15:system/etc/firmware/modem.b15 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b16:system/etc/firmware/modem.b16 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b17:system/etc/firmware/modem.b17 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b18:system/etc/firmware/modem.b18 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b19:system/etc/firmware/modem.b19 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b20:system/etc/firmware/modem.b20 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b21:system/etc/firmware/modem.b21 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b22:system/etc/firmware/modem.b22 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b25:system/etc/firmware/modem.b25 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b26:system/etc/firmware/modem.b26 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.b27:system/etc/firmware/modem.b27 \
-	vendor/sony/falconss/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
 	vendor/sony/falconss/proprietary/etc/firmware/playready.b00:system/etc/firmware/playready.b00 \
 	vendor/sony/falconss/proprietary/etc/firmware/playready.b01:system/etc/firmware/playready.b01 \
 	vendor/sony/falconss/proprietary/etc/firmware/playready.b02:system/etc/firmware/playready.b02 \
@@ -124,15 +105,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
 	vendor/sony/falconss/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
 	vendor/sony/falconss/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
-	vendor/sony/falconss/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-	vendor/sony/falconss/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-	vendor/sony/falconss/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-	vendor/sony/falconss/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-	vendor/sony/falconss/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
-	vendor/sony/falconss/proprietary/etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
-	vendor/sony/falconss/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
-	vendor/sony/falconss/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
-	vendor/sony/falconss/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
 	vendor/sony/falconss/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
 	vendor/sony/falconss/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
 	vendor/sony/falconss/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
