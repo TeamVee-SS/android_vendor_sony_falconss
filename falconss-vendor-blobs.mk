@@ -49,6 +49,9 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/updatemiscta:system/bin/updatemiscta \
 	vendor/sony/falconss/proprietary/bin/usbhub:system/bin/usbhub \
 	vendor/sony/falconss/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+	vendor/sony/falconss/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
+	vendor/sony/falconss/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
+	vendor/sony/falconss/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
 	vendor/sony/falconss/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -140,7 +143,16 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
 	vendor/sony/falconss/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
 	vendor/sony/falconss/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
+	vendor/sony/falconss/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+	vendor/sony/falconss/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+	vendor/sony/falconss/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
 	vendor/sony/falconss/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+	vendor/sony/falconss/proprietary/etc/wcn3620/p2p_supplicant_overlay.conf:system/etc/wcn3620/p2p_supplicant_overlay.conf \
+	vendor/sony/falconss/proprietary/etc/wcn3620/wpa_supplicant_overlay.conf:system/etc/wcn3620/wpa_supplicant_overlay.conf \
+	vendor/sony/falconss/proprietary/etc/wcn3620/wpa_supplicant_wcn.conf:system/etc/wcn3620/wpa_supplicant_wcn.conf \
+	vendor/sony/falconss/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
+	vendor/sony/falconss/proprietary/etc/wifi/WCNSS_qcom_wlan_cal.bin:system/etc/wifi/WCNSS_qcom_wlan_cal.bin \
+	vendor/sony/falconss/proprietary/etc/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/wifi/WCNSS_qcom_wlan_nv.bin \
 	vendor/sony/falconss/proprietary/lib/hw/camera.vendor.msm8610.so:system/lib/hw/camera.vendor.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/hw/lights.vendor.msm8610.so:system/lib/hw/lights.vendor.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
