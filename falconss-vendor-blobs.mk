@@ -49,9 +49,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/updatemiscta:system/bin/updatemiscta \
 	vendor/sony/falconss/proprietary/bin/usbhub:system/bin/usbhub \
 	vendor/sony/falconss/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-	vendor/sony/falconss/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
-	vendor/sony/falconss/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
-	vendor/sony/falconss/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
 	vendor/sony/falconss/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -146,6 +143,9 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
 	vendor/sony/falconss/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
 	vendor/sony/falconss/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+	vendor/sony/falconss/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
+	vendor/sony/falconss/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
+	vendor/sony/falconss/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
 	vendor/sony/falconss/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
 	vendor/sony/falconss/proprietary/etc/wcn3620/p2p_supplicant_overlay.conf:system/etc/wcn3620/p2p_supplicant_overlay.conf \
 	vendor/sony/falconss/proprietary/etc/wcn3620/wpa_supplicant_overlay.conf:system/etc/wcn3620/wpa_supplicant_overlay.conf \
@@ -314,6 +314,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libimage-omx-common.so:system/vendor/lib/libimage-omx-common.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
 	vendor/sony/falconss/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
 	vendor/sony/falconss/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -383,6 +384,10 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
 	vendor/sony/falconss/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+	vendor/sony/falconss/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+	vendor/sony/falconss/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
@@ -392,4 +397,4 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	vendor/sony/falconss/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-	vendor/sony/falconss/proprietary/vendor/lib/surround_sound_headers.so:system/vendor/lib/surround_sound_headers.so \
+	vendor/sony/falconss/proprietary/vendor/lib/surround_sound_headers.so:system/vendor/lib/surround_sound_headers.so

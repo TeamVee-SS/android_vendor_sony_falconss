@@ -16,5 +16,7 @@
 
 $(call inherit-product, vendor/sony/falconss/falconss-vendor-blobs.mk)
 
-# Prebuilt libs needed for compilation
-PRODUCT_PACKAGES += libtime_genoff
+ifeq ($(BOARD_USES_QC_TIME_SERVICES),true)
+PRODUCT_PACKAGES += \
+    libtime_genoff
+endif
