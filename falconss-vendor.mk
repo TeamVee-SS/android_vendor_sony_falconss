@@ -20,3 +20,6 @@ ifeq ($(BOARD_USES_QC_TIME_SERVICES),true)
 PRODUCT_PACKAGES += \
     libtime_genoff
 endif
+
+PRODUCT_PACKAGES += \
+    com.qualcomm.location
