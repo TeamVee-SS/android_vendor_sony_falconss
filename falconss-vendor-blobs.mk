@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/charger_monitor:system/bin/charger_monitor \
 	vendor/sony/falconss/proprietary/bin/cnd:system/bin/cnd \
 	vendor/sony/falconss/proprietary/bin/credmgrd:system/bin/credmgrd \
-	vendor/sony/falconss/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
 	vendor/sony/falconss/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
 	vendor/sony/falconss/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/sony/falconss/proprietary/bin/dun-server:system/bin/dun-server \
@@ -48,8 +47,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/sony/falconss/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/sony/falconss/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-	vendor/sony/falconss/proprietary/bin/usbhub:system/bin/usbhub \
-	vendor/sony/falconss/proprietary/bin/usbhub_init:system/bin/usbhub_init \
 	vendor/sony/falconss/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -157,6 +154,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
 	vendor/sony/falconss/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
 	vendor/sony/falconss/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+	vendor/sony/falconss/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
 	vendor/sony/falconss/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
 	vendor/sony/falconss/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
 	vendor/sony/falconss/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
@@ -295,7 +293,10 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
