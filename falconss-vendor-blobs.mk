@@ -138,9 +138,13 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
 	vendor/sony/falconss/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
 	vendor/sony/falconss/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
+	vendor/sony/falconss/proprietary/etc/flp.conf:system/etc/flp.conf \
+	vendor/sony/falconss/proprietary/etc/gps.conf:system/etc/gps.conf \
 	vendor/sony/falconss/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+	vendor/sony/falconss/proprietary/etc/sap.conf:system/etc/sap.conf \
 	vendor/sony/falconss/proprietary/lib/hw/camera.vendor.msm8610.so:system/lib/hw/camera.vendor.msm8610.so \
-	vendor/sony/falconss/proprietary/lib/hw/lights.vendor.msm8610.so:system/lib/hw/lights.vendor.msm8610.so \
+	vendor/sony/falconss/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
+	vendor/sony/falconss/proprietary/lib/hw/lights.msm8610.so:system/lib/hw/lights.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
 	vendor/sony/falconss/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
@@ -150,6 +154,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
 	vendor/sony/falconss/proprietary/lib/libfmradiosony.so:system/lib/libfmradiosony.so \
 	vendor/sony/falconss/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
+	vendor/sony/falconss/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/sony/falconss/proprietary/lib/libidd.so:system/lib/libidd.so \
 	vendor/sony/falconss/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
 	vendor/sony/falconss/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
@@ -160,6 +165,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
 	vendor/sony/falconss/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 	vendor/sony/falconss/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+	vendor/sony/falconss/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
 	vendor/sony/falconss/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
 	vendor/sony/falconss/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
 	vendor/sony/falconss/proprietary/lib/libmorpho_edit_engine.so:system/lib/libmorpho_edit_engine.so \
@@ -188,9 +194,13 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
 	vendor/sony/falconss/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
@@ -404,4 +414,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	vendor/sony/falconss/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+	vendor/sony/falconss/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+	vendor/sony/falconss/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+	vendor/sony/falconss/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
 	vendor/sony/falconss/proprietary/vendor/lib/surround_sound_headers.so:system/vendor/lib/surround_sound_headers.so
