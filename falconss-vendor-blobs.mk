@@ -47,6 +47,20 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/sony/falconss/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/sony/falconss/proprietary/bin/updatemiscta:system/bin/updatemiscta \
+	vendor/sony/falconss/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+	vendor/sony/falconss/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+	vendor/sony/falconss/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+	vendor/sony/falconss/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+	vendor/sony/falconss/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+	vendor/sony/falconss/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+	vendor/sony/falconss/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
+	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
 	vendor/sony/falconss/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -142,10 +156,12 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/etc/gps.conf:system/etc/gps.conf \
 	vendor/sony/falconss/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
 	vendor/sony/falconss/proprietary/etc/sap.conf:system/etc/sap.conf \
+	vendor/sony/falconss/proprietary/lib/hw/audio.primary.msm8610.so:system/lib/hw/audio.primary.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/hw/camera.vendor.msm8610.so:system/lib/hw/camera.vendor.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/hw/lights.vendor.msm8610.so:system/lib/hw/lights.vendor.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
+	vendor/sony/falconss/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
 	vendor/sony/falconss/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
 	vendor/sony/falconss/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 	vendor/sony/falconss/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
@@ -182,6 +198,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/sony/falconss/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
 	vendor/sony/falconss/proprietary/lib/libta.so:system/lib/libta.so \
+	vendor/sony/falconss/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+	vendor/sony/falconss/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
 	vendor/sony/falconss/proprietary/lib/libxml2.so:system/lib/libxml2.so \
 	vendor/sony/falconss/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
 	vendor/sony/falconss/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
