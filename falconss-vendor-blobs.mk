@@ -154,16 +154,12 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
 	vendor/sony/falconss/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
 	vendor/sony/falconss/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
-	vendor/sony/falconss/proprietary/etc/flp.conf:system/etc/flp.conf \
-	vendor/sony/falconss/proprietary/etc/gps.conf:system/etc/gps.conf \
 	vendor/sony/falconss/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
 	vendor/sony/falconss/proprietary/etc/sap.conf:system/etc/sap.conf \
-	vendor/sony/falconss/proprietary/lib/hw/audio.primary.msm8610.so:system/lib/hw/audio.primary.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/hw/camera.vendor.msm8610.so:system/lib/hw/camera.vendor.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/hw/lights.vendor.msm8610.so:system/lib/hw/lights.vendor.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
-	vendor/sony/falconss/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
 	vendor/sony/falconss/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
 	vendor/sony/falconss/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
 	vendor/sony/falconss/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
@@ -199,8 +195,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/sony/falconss/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
 	vendor/sony/falconss/proprietary/lib/libta.so:system/lib/libta.so \
-	vendor/sony/falconss/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-	vendor/sony/falconss/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
 	vendor/sony/falconss/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
 	vendor/sony/falconss/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
 	vendor/sony/falconss/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
