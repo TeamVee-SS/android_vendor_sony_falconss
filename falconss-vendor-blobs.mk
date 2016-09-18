@@ -26,8 +26,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
 	vendor/sony/falconss/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/sony/falconss/proprietary/bin/dun-server:system/bin/dun-server \
-	vendor/sony/falconss/proprietary/bin/fmconfig:system/bin/fmconfig \
-	vendor/sony/falconss/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
 	vendor/sony/falconss/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
 	vendor/sony/falconss/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/sony/falconss/proprietary/bin/illumination_service:system/bin/illumination_service \
@@ -436,6 +434,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
