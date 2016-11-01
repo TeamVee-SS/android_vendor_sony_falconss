@@ -193,6 +193,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/sony/falconss/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
 	vendor/sony/falconss/proprietary/lib/libta.so:system/lib/libta.so \
+	vendor/sony/falconss/proprietary/lib/soundfx/libposteffectwrapper.so:system/lib/soundfx/libposteffectwrapper.so \
+	vendor/sony/falconss/proprietary/lib/soundfx/libpreeffectwrapper.so:system/lib/soundfx/libpreeffectwrapper.so \
 	vendor/sony/falconss/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
 	vendor/sony/falconss/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
 	vendor/sony/falconss/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
