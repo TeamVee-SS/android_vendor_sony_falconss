@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/btnvtool:system/bin/btnvtool \
 	vendor/sony/falconss/proprietary/bin/charger_monitor:system/bin/charger_monitor \
 	vendor/sony/falconss/proprietary/bin/cnd:system/bin/cnd \
-	vendor/sony/falconss/proprietary/bin/credmgrd:system/bin/credmgrd \
 	vendor/sony/falconss/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
 	vendor/sony/falconss/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/sony/falconss/proprietary/bin/dun-server:system/bin/dun-server \
@@ -162,13 +161,10 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
 	vendor/sony/falconss/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
 	vendor/sony/falconss/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-	vendor/sony/falconss/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
 	vendor/sony/falconss/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/sony/falconss/proprietary/lib/libface.so:system/lib/libface.so \
 	vendor/sony/falconss/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
 	vendor/sony/falconss/proprietary/lib/libfmradiosony.so:system/lib/libfmradiosony.so \
-	vendor/sony/falconss/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
-	vendor/sony/falconss/proprietary/lib/libidd.so:system/lib/libidd.so \
 	vendor/sony/falconss/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
 	vendor/sony/falconss/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
 	vendor/sony/falconss/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -189,7 +185,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
 	vendor/sony/falconss/proprietary/lib/libmorpho_wdr.so:system/lib/libmorpho_wdr.so \
 	vendor/sony/falconss/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
-	vendor/sony/falconss/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
 	vendor/sony/falconss/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
 	vendor/sony/falconss/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/sony/falconss/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
