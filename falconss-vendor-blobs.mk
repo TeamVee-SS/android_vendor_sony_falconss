@@ -16,10 +16,8 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-	vendor/sony/falconss/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
 	vendor/sony/falconss/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/sony/falconss/proprietary/bin/btnvtool:system/bin/btnvtool \
-	vendor/sony/falconss/proprietary/bin/charger_monitor:system/bin/charger_monitor \
 	vendor/sony/falconss/proprietary/bin/cnd:system/bin/cnd \
 	vendor/sony/falconss/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
 	vendor/sony/falconss/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
@@ -29,7 +27,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/illumination_service:system/bin/illumination_service \
 	vendor/sony/falconss/proprietary/bin/irsc_util:system/bin/irsc_util \
 	vendor/sony/falconss/proprietary/bin/magnetic:system/bin/magnetic \
-	vendor/sony/falconss/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
 	vendor/sony/falconss/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/sony/falconss/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/sony/falconss/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -319,7 +316,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-	vendor/sony/falconss/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
@@ -341,8 +337,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
 	vendor/sony/falconss/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-	vendor/sony/falconss/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-	vendor/sony/falconss/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
